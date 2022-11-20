@@ -1,0 +1,266 @@
+.intro {
+    overflow: hidden;
+    &-back {
+        width: auto;
+        height: 650px;
+        position: relative;
+
+        &__img {
+            width: auto;
+            height: 500px;
+            position: relative;
+        }
+    }
+
+    &-text {
+        &__h2 {
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -2.5px;
+            color: #FFFFFF;
+            position: relative;
+            top: -550px;
+            left: 135px;
+            width: 460px;
+            height: 112px;
+        }
+
+        &__p {
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+            position: relative;
+            width: 350px;
+            height: 100px;
+            top: -520px;
+            left: 210px;
+        }
+
+        &__btn {
+            position: relative;
+            top: -490px;
+            left: 210px;
+        }
+    }
+
+    &__firstvec {
+        display: block;
+        position: relative;
+        top: -630px;
+        width: 160px;
+    }
+
+    &__secondvec {
+        display: block;
+        position: relative;
+        top: -640px;
+        left: 580px;
+        width: 300px;
+    }
+
+    &-circle {
+        display: flex;
+        position: relative;
+        top: -715px;
+        left: 920px;
+        width: 300px;
+
+        &__first {
+            margin: 10px;
+            width: 62px;
+            height: 62px;
+            background: none;
+            border: 3px solid #ffffff;
+            border-radius: 50%;
+        }
+
+        &__second {
+            margin: 10px;
+            width: 62px;
+            height: 62px;
+            background-color: #ffffff;
+            border: 3px solid #ffffff;
+            border-radius: 50%;
+        }
+
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .intro {
+        &-back {
+            max-width: 377px;
+            width: auto;
+            height: 750px;
+
+            &__img {
+                max-width: 767px;
+                width: auto;
+                height: 700px;
+            }
+        }
+
+        &-text {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &__h2 {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 56px;
+                letter-spacing: -2.5px;
+                color: #FFFFFF;
+                position: relative;
+                top: -620px;
+                left: auto;
+                width: auto;
+                margin: 20px;
+                height: 112px;
+            }
+
+            &__p {
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                color: #FFFFFF;
+                position: relative;
+                width: auto;
+                height: 100px;
+                top: -600px;
+                left: auto;
+                margin: 20px;
+
+            }
+
+            &__btn {
+                position: relative;
+                top: -560px;
+                left: auto;
+            }
+        }
+
+        &__firstvec {
+            display: none;
+            position: relative;
+            top: -630px;
+            left: -215px;
+            width: auto;
+        }
+
+
+
+        &__secondvec {
+            display: block;
+            position: relative;
+            top: -550px;
+            left: -135px;
+            width: auto;
+        }
+
+        &-circle {
+            display: flex;
+            position: relative;
+            top: -634px;
+            left: 562px;
+            width: 300px;
+            overflow: hidden;
+        }
+
+    }
+
+
+    @media screen and (max-width:376px) {
+        .intro {
+            &-back {
+                max-width: 370px;
+                width: auto;
+                height: 750px;
+
+                &__img {
+                    max-width: 375px;
+                    width: auto;
+                    height: 700px;
+                }
+            }
+
+            &-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+
+
+                &__h2 {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 56px;
+                    line-height: 56px;
+                    letter-spacing: -2.5px;
+                    color: #FFFFFF;
+                    position: relative;
+                    top: -720px;
+                    left: 20px;
+                    width: auto;
+                    height: 112px;
+                }
+
+                &__p {
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                    position: relative;
+                    width: auto;
+                    height: auto;
+                    top: -650px;
+                    left: 20px;
+                }
+
+                &__btn {
+                    align-content: center;
+                    position: relative;
+                    top: -650px;
+                    left: 20px;
+                }
+            }
+
+            &-circle {
+                display: none;
+                position: relative;
+                top: -634px;
+                left: 424px;
+                width: 300px;
+                overflow: hidden;
+            }
+            &__secondvec {
+                display: block;
+                position: relative;
+                top: -670px;
+                left: -335px;
+                width: auto;
+            }
+
+
+
+        }
+    }
+
+
+}

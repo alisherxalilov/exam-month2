@@ -1,0 +1,174 @@
+.instruction {
+    &_hr {
+        width: 800px;
+        height: 15px;
+        background: #E5ECF4;
+        position: absolute;
+        margin-top: 80px;
+        position: relative;
+        top: -500px;
+    }
+
+    &-list {
+        display: flex;
+        position: relative;
+        top: -580px;
+        left: 70px;
+
+        &-div {
+            width: 280px;
+            height: 165px;
+            margin: 30px;
+
+            &__h3 {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                letter-spacing: -1.07143px;
+                color: #495567;
+                margin: 10px;
+                padding-top: 15px;
+            }
+
+            .instruction-list-div__p {
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                margin: 10px;
+                color: #939CAA;
+                padding-top: 15px;
+
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .instruction {
+        display: flex;
+
+        &_hr {
+            height: 500px;
+            width: 15px;
+            background: #E5ECF4;
+            position: absolute;
+            margin-top: 80px;
+            position: relative;
+            top: -708px;
+            left: 150px;
+        }
+
+        &-list {
+            display: block;
+            position: relative;
+            top: -550px;
+            left: 65px;
+
+            &-div {
+                width: auto;
+                height: 165px;
+                margin: 30px;
+                &__h3 {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    letter-spacing: -1.07143px;
+                    color: #495567;
+                    margin: 10px;
+                    padding-top: 15px;
+                    position: relative;
+                    left: 130px;
+                    top: -120px;
+                }
+
+                .instruction-list-div__p {
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    margin: 10px;
+                    color: #939CAA;
+                    padding-top: 15px;
+                    position: relative;
+                    left: 130px;
+                    top: -120px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:376px) {
+    .instruction {
+        &_hr {
+            display: none;
+            width: 800px;
+            height: 15px;
+            background: #E5ECF4;
+            position: absolute;
+            margin-top: 80px;
+            position: relative;
+            top: -400px;
+        }
+
+        &-list {
+            display: block;
+            position: relative;
+            top: -480px;
+            left: 70px;
+
+
+            &-div {
+                width: auto;
+                height: auto;
+                margin: 0 auto;
+                margin-bottom: 50px;
+
+                &__img{
+                    width: 56px;
+                    height: 56px;
+                }
+
+                &__h3 {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    letter-spacing: -1.07143px;
+                    color: #495567;
+                    margin: auto;
+                    padding-top: 15px;
+                    position: relative;
+                    left: 0px;
+                    top: 0px;
+
+                }
+
+                .instruction-list-div__p {
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    margin: auto;
+                    color: #939CAA;
+                    padding-top: 15px;
+                    position: relative;
+                    left: 0px;
+                    top: 0px;
+                }
+            }
+        }
+    }
+}

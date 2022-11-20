@@ -1,0 +1,134 @@
+.value {
+    position: relative;
+    top: -1500px;
+
+    &__h3 {
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -2.14286px;
+        color: #495567;
+        position: relative;
+        top: -50px;
+
+    }
+
+    &-menu {
+        width: 90%;
+        height: 150px;
+        align-content: center;
+        display: flex;
+        justify-content: space-between;
+
+        &-list {
+            &__img {
+                width: 240px;
+                height: 240px;
+                border-radius: 50%;
+                position: relative;
+                left: 70px;
+            }
+
+            &__crcl {
+                background: #FCB72B;
+                width: 96px;
+                height: 96px;
+                border-radius: 50%;
+                position: relative;
+                top: -48px;
+                left: 124px;
+
+                h3 {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    /* identical to box height, or 117% */
+                    text-align: center;
+                    letter-spacing: -1.07143px;
+
+                    color: #495567;
+                }
+            }
+
+            &__h3 {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                /* identical to box height, or 117% */
+
+                text-align: center;
+                letter-spacing: -1.07143px;
+
+                color: #495567;
+            }
+
+            &__p {
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                /* or 167% */
+
+                text-align: center;
+
+                color: #939CAA;
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .value {
+        &__h3 {
+            position: relative;
+            top: -600px;
+        }
+
+        position: relative;
+        top: 100px;
+
+        &-menu {
+            &-list{
+                &__img{
+                    margin: 0 auto;
+                }
+                align-content: center;
+            }
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+
+    
+
+
+
+@media screen and (max-width:376px) { 
+
+.value{
+    position: relative;
+    top: 600px;
+    width: auto;
+}
+
+}
+
+.value-menu-list__img{
+    left: 5px;
+}
+.value-menu-list__crcl{
+    left: 45px;
+}
+}

@@ -1,0 +1,33 @@
+.signabout{
+    position: relative;
+    top: -1020px;
+}
+.footerabout{
+    position: relative;
+    top: -1020px;
+}
+
+
+@media screen and (max-width:768px) {
+    .signabout{
+        position: relative;
+        top: 850px;
+    }
+    .footerabout{
+        position: relative;
+        top: 850px;
+    }
+}
+
+
+@media screen and (max-width:376px) {
+    .signabout{
+        position: relative;
+        top: 1350px;
+    }
+    .footerabout{
+        position: relative;
+        top: 1350px;
+    }
+
+}

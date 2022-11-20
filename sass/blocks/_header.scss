@@ -1,0 +1,124 @@
+
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+    &-btn {
+        &__get {
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            border: none;
+            text-align: center;
+            color: #FFFFFF;
+            background: #FCB72B;
+            width: 180px;
+            height: 53px;
+        }
+
+        &__get:hover {
+            border: 3px solid #FCB72B;
+            color: #FCB72B;
+            background: none;
+        }
+    }
+    &-brg{
+        display: none;
+    }
+
+    &-list {
+        display: flex;
+
+        &-ul {
+            display: flex;
+
+            &-li {
+                margin-left: 40px;
+
+                &__a {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 25px;
+
+                    color: #939CAA;
+                }
+
+                &__a:hover {
+                    color: #FCB72B;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    .header{
+        width: auto;
+        &-list {
+            display: flex;
+    
+            &-ul {
+                display: flex;
+    
+                &-li {
+                    margin-left: 5px;
+    
+                    &__a {
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 25px;
+    
+                        color: #939CAA;
+                    }
+    
+                    &__a:hover {
+                        color: #FCB72B;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+
+
+@media screen and (max-width:376px) {
+    .header{
+        &-brg{
+            display: block;
+            position: relative;
+            left: 0px;
+            padding-top: 10px;
+            &__burger{
+                border: none;
+                background: none;
+            }
+            
+        }
+        &-list{
+            display: none;
+        }
+        &-logo{
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        &-btn{
+            display: none;
+        }
+    }
+    
+}
